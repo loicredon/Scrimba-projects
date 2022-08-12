@@ -1,0 +1,95 @@
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header img {
+    height: 25px;
+}
+
+#swipezone img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.swipezone {
+    height: 10vh;
+    width: 100%;
+}
+
+.hideButtonLike {
+    display: none;
+}
+
+.hideButtonDislike {
+    display: none;
+}
+
+
+#nope img, #yep img {
+    height: 60px;
+    width: auto;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 80px; left: 15px;
+}
+
+#dislikeButton:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#likeButton:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}  
+
+.swipebar {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.swipebar a {
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#dislikeButton {
+    margin-right: 10px;
+}
+
+.swipebar a img {
+    transform: translateY(15%)
+}
+
+a:hover {
+    background-color: #DBFFF4
+}
+
+.dog-info {
+    position: absolute;
+    bottom: 100px; left: 20px;
+    color: white;
+}
+
+.dog-bio {
+    font-size: 14px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
